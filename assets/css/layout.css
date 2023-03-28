@@ -1,0 +1,189 @@
+@import './fonts.css';
+@import './reset.css';
+@import './common.css';
+
+
+.header{
+  position: fixed;
+  top: 0;left: 0;width: 100%;
+  z-index: 100;
+}
+.header.on{
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(35px);
+}
+.header.black{
+  background: rgba(255,255,255,0.3);
+  color: #000;
+}
+.header .nav-bar{
+  padding: 15px 25px;
+}
+.header .nav-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav-item{
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+}
+.header .sub-list{
+  display: none;
+}
+
+
+/* 푸터 */
+
+.footer{
+  position: relative;
+  background: #000;
+}
+.footer .sc-contact{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 45px 60px;
+}
+.footer .group-flex .flex-wrap{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.footer .sc-contact .footer-mid{
+  font-weight: 300;
+  font-size: 5vw;
+  line-height: 10vh;
+  letter-spacing: 0.02em;
+  margin-top: 30px;
+}
+.footer .sc-contact .footer-mid .bottom{
+  display: flex;
+}
+.footer .sc-contact .footer-mid .bottom .txt{
+  margin-right: 30px;
+}
+.footer .sc-contact .footer-mid .bottom input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.footer .footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer .footer-bottom button{
+  position: relative;
+  padding: 0;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 1.4vw;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer .footer-bottom button:hover{
+  border-bottom: 1.5px solid #fff;
+}
+.footer hr{
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+.footer .bottom-info{
+  padding: 40px 45px 40px;
+  display: flex;
+  position: relative;
+}
+.footer .bottom-info .left-box{
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.footer .bottom-info .left-box p{
+  max-width: 26vw;
+}
+.footer .bottom-info .mid-box{
+  margin-left: 10vw;
+  display: flex;
+}
+.footer .bottom-info .mid-box .title{
+  display: block;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.footer .bottom-info .mid-box p{
+  margin-bottom: 5px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+}
+.footer .bottom-info .mid-box a{
+  position: relative;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+}
+.footer .bottom-info .mid-box a::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: -2px;
+  background: #757575;
+}
+.footer .bottom-info .mid-box .visit-box{
+  margin-left: 80px;
+}
+.footer .bottom-info .right-box{
+  position: absolute;
+  right: 45px;
+}
+.footer .bottom-info .right-box img{
+  width: 150px;
+  overflow: hidden;
+}
+.footer .copy-txt{
+  padding: 0 45px 60px 45px;
+  display: flex;
+}
+.footer .copy-txt span{
+  text-transform: uppercase;
+  color: #757575;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.footer .copy-txt .copy{
+  margin-right: 20px;
+}
+.footer .copy-txt  a{
+  margin-left: auto;
+  display: inline-block;
+  position: relative;
+  height: fit-content;
+  color: #757575;
+  font-size: 13px;
+}
+.footer .copy-txt a::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: -2px;
+  background: #757575;
+}

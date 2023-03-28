@@ -1,0 +1,46 @@
+.blind{
+    width: 1px;
+    height: 1px;
+    clip: rect(0,0,0,0);
+    overflow: hidden;
+    margin: -1px;
+}
+
+.cursor{
+    position: fixed;
+    top: 0;left: 0;
+    width: 5px;height: 5px;
+    background: #fff;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    z-index: 99;
+}
+.cursor.point{
+    width: 10px;
+    height: 10px;
+    filter: blur(0)!important;
+}
+
+.link-more{
+    position: relative;
+    display: flex;
+    width: max-content;
+    font-size: 1.1vw;
+    line-height: 1.4vw;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+    text-transform: uppercase;
+}
+.c-scrollbar{
+    position: fixed;
+    top: 0;right: 0;
+    width: 2px;
+    height: 100%;
+    z-index: 99;
+  }
+  .c-scrollbar .curr{
+    display: block;
+    height: 0%;
+    width: 100%;
+    background: #fff;
+  }

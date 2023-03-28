@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'silk';
+  src: url(../fonts/font.woff2) format('woff2');
+  font-style: normal;
+  font-weight: normal;
+} 
+
+@font-face {
+  font-family: 'silk';
+  src: url(../fonts/font-italic.woff2) format('woff2');
+  font-style: italic;
+} 
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(../fonts/f9c5199e-a996-4c08-9042-1eb845bb7495.woff2) format('woff2');
+  font-style: normal;
+} 
+
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(../fonts/2a7e8f89-c0b2-4334-9c34-7a2078d2b959.woff2) format('woff2');
+  font-style: italic;
+} 
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url(../fonts/Pretendard-Regular.woff);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url(../fonts/Pretendard-Medium.woff);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url(../fonts/Pretendard-Bold.woff);
+  font-weight: bold;
+}
